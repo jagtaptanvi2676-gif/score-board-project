@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+    
+</head>
+<body>
+    <div class="main">
+        <div class="home">
+            <p class="heading">HOME</p>
+            <p id="home-counter">0</p>
+            <button onclick="addHomePoints(1)"  class="plus-btn">+1</button>
+            <button onclick="addHomePoints(2)" class="plus-btn">+2</button>
+            <button onclick="addHomePoints(3)" class="plus-btn">+3</button>
+        </div>
+        <div class="guest">
+            <p class="heading">GUEST</p>
+            <p id="guest-counter">0</p>
+            <button class="plus-btn" onclick="addGuestPoints(1)">+1</button>
+            <button class="plus-btn" onclick="addGuestPoints(2)"> +2</button>
+            <button class="plus-btn" onclick="addGuestPoints(3)">+3</button>
+        </div>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>

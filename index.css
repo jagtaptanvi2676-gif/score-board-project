@@ -1,0 +1,90 @@
+html{
+    height: 100%;
+}
+
+body{
+    margin: 0;
+    height: 100%;
+    padding: 0;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+@font-face {
+    font-family: "cursed";
+    src: url(cursed.ttf);
+}
+
+.main{
+    background-color: #1B244A;
+    display: flex;
+    width: 100%;
+    justify-items: center;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 500px;
+    width: 500px;
+    border-radius:20px ;
+    border: 4px solid #9AABD8;
+    box-shadow: 0 0 10px gray;
+    
+}
+/* .home{
+    
+    padding-inline: 15%;
+}
+
+.guest{
+     padding-inline-end: 15%;
+} */
+
+.heading{
+    color: #eee;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 32px;
+    font-weight: bold;
+}
+
+#home-counter{
+
+    color: #F94F6D;
+    background-color: #080001;
+    font-family:"cursed", sans-serif ;
+    font-size: 32px;
+    padding-block:25px ;
+    margin-inline: 8px;
+    border-radius: 8px;
+}
+
+#guest-counter{
+
+    color: #F94F6D;
+    background-color: #080001;
+    font-family:"cursed", sans-serif ;
+    font-size: 32px;
+    padding-block:25px ;
+    margin-inline: 8px;
+    border-radius: 8px;
+}
+.plus-btn{
+    color: #9AABD8;
+    border: 2px solid #9AABD8;
+   font-family:"cursed", sans-serif ;
+   padding-block:8px ;
+   padding-inline: 8px;
+   background-color: #1B244A;
+   border-radius: 5px;
+   margin-left: 4px;
+   font-size: 16px;
+
+}
+.plus-btn:hover{
+    opacity: 0.8;
+}
+.plus-btn:active{
+    opacity: 0.4;
+}
+
